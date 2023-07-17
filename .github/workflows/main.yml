@@ -15,4 +15,4 @@ jobs:
         cache : meven
         distribution:  "temurin"
     - uses: browser-actions/setup-chrome@latest
-    -run: mvn clean test     
+    - run: mvn clean test     
