@@ -1,6 +1,6 @@
 name: Run selenium Test
 
-On:
+on:
   push:
     branches: ["master"]
 
