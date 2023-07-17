@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-16T14:10:26 IDT" name="Default suite" finished-at="2023-07-16T14:10:31 IDT" duration-ms="4979">
+    <groups>
+    </groups>
+    <test started-at="2023-07-16T14:10:26 IDT" name="Default test" finished-at="2023-07-16T14:10:31 IDT" duration-ms="4979">
+      <class name="com.qacart.todo.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qacart.todo.testcases.LoginTest@d62fe5b]" started-at="2023-07-16T14:10:26 IDT" name="setup" finished-at="2023-07-16T14:10:28 IDT" duration-ms="1898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ShouldBeAbleToLoginWithEmailAndPassword()[pri:0, instance:com.qacart.todo.testcases.LoginTest@d62fe5b]" started-at="2023-07-16T14:10:28 IDT" name="ShouldBeAbleToLoginWithEmailAndPassword" description="Test the login functionality with email and password" finished-at="2023-07-16T14:10:30 IDT" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldBeAbleToLoginWithEmailAndPassword -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.qacart.todo.testcases.LoginTest@d62fe5b]" started-at="2023-07-16T14:10:30 IDT" name="Teardown" finished-at="2023-07-16T14:10:31 IDT" duration-ms="546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShouldBeAbleToLoginWithEmailAndPassword status=SUCCESS method=LoginTest.ShouldBeAbleToLoginWithEmailAndPassword()[pri:0, instance:com.qacart.todo.testcases.LoginTest@d62fe5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.qacart.todo.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
